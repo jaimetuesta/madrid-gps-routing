@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# OSMnx HTTP cache (created when the graph is downloaded)
+cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
