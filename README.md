@@ -79,7 +79,3 @@ The algorithms and program logic are those of the original submission. For this 
 - `time_weight` falls back to a default speed (30 km/h) when an edge has no readable `maxspeed` and an unknown road type, so that a freshly downloaded graph cannot stop the program.
 - `tipo_giro` clamps the cosine to [-1, 1] before `acos` to avoid rounding errors on aligned nodes.
 - Student ID numbers were removed from the file headers, `requirements.txt` was completed, and the report was rewritten and expanded (explicit weight formulas, navigation-instruction logic, and figures from real runs of the program).
-
-## AI use
-
-As stated in the original report, AI tools were used as support during the project: polishing code, fixing small errors and answering specific questions about the graph libraries and the Dijkstra, Prim and Kruskal algorithms.
